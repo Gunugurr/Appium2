@@ -1,0 +1,5 @@
+Runners\SmokeTest.class
+Token\BearerToken.class
+org\example\App.class
+Runners\TestRunner.class
+Steps\JiraSteps.class
