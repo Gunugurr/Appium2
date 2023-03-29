@@ -7,7 +7,6 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {"pretty",
                 "html:target/cucumber-reports/cucumber.html",
                 "json:target/cucumber-reports/cucumber.json"
-                
         },
         monochrome = true,
         features = "src\\test\\resources\\features\\ebebek.feature",
