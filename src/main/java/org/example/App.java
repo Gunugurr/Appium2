@@ -26,5 +26,6 @@ public class App {
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), cap);
         wait = new WebDriverWait(driver, 5);
 
+
     }
 }

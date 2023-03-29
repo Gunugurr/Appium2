@@ -234,7 +234,7 @@ public class JiraSteps extends App {
         @Given("Üye girişi sekmesine gidildiği görülür")
         public void uye_girisi_sekmesine_gidildigi_gorulur() throws InterruptedException {
             try{
-                Steps.JiraSteps.text4 = driver.findElement(By.xpath("/hhierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.TextView")).getText();
+                Steps.JiraSteps.text4 = driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.TextView")).getText();
                 Assert.assertEquals(text4, "Üye Girişi");
                 System.out.println("Doğru sayfa (Üye girişi)");
                 requestSender.changeResult("DEN1-15",true);
