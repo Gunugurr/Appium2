@@ -33,7 +33,6 @@ public class JiraSteps extends App {
         public static String text8;
 
 
-
         @Before
         public void open() throws MalformedURLException {
             setUp();
