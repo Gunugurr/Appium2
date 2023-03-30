@@ -17,6 +17,7 @@ import org.testng.annotations.AfterClass;
         dryRun = false,
         tags = "@SmokeTest"
 )
+
 public class SmokeTest extends AbstractTestNGCucumberTests {
     @AfterClass
     public static void afterClass() {
