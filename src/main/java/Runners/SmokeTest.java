@@ -7,6 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.junit.runner.RunWith;
 import org.testng.annotations.AfterClass;
 
+
 @CucumberOptions(
         plugin = {
                 "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport/ExtentReportRegression.html"
