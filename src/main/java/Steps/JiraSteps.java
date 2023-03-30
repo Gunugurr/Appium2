@@ -20,6 +20,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class JiraSteps extends App {
+        
 
         BearerToken requestSender = new BearerToken();
         public static String text1;
