@@ -15,7 +15,6 @@ import org.json.*;
 
 public class BearerToken {
     private List<JSONObject> tests = new ArrayList<>();
-
     public void changeResult(String testCaseName, Boolean isPassed) {
         JSONObject test = new JSONObject();
         test.put("testKey", testCaseName);
