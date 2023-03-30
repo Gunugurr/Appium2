@@ -1,2 +1,2 @@
 # Appium3
-java project
+Java project
