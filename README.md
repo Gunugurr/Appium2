@@ -1,2 +1,2 @@
-# Appium3
+# Appium2
 Java project
