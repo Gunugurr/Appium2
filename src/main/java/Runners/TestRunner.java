@@ -12,7 +12,6 @@ import io.cucumber.testng.CucumberOptions;
         features = "src\\test\\resources\\features\\ebebek.feature",
         glue = "Steps",
         dryRun = false
-
 )
 
 
